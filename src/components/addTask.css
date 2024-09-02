@@ -1,0 +1,39 @@
+section{
+  width: 100%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+}
+
+.addTask{
+
+  background-color: white;
+  border-radius: 5px;
+  /* width:50%; */
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.inputBox{
+  padding: 10px;
+ 
+  flex-wrap: nowrap;
+  gap:1px;
+  width:100%;
+}
+
+.inputBox input{
+  flex-grow: 1;
+  min-width: 0;
+  padding: 5px;
+}
+
+.inputBox .btn{
+  flex-shrink: 0;
+  background-color: green;
+}
+
+input{
+  border-radius: 5px;
+}
